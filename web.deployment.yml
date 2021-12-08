@@ -37,11 +37,10 @@ spec:
           name: web
           ports:
             - containerPort: 3000
-              hostPort: 80
               protocol: TCP
           resources:
             requests:
-                cpu: 1000m
+                cpu: 125m
                 memory: 128Mi
           securityContext:
             privileged: false

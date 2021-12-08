@@ -8,7 +8,7 @@ metadata:
   labels:
     app: api
   name: api
-  namespace: default
+  namespace: ingress-demo 
   resourceVersion: "452047"
   uid: 9661f83d-303d-4a93-980e-ca621370ac15
 spec:
